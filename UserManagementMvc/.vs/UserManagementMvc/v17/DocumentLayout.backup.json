@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\extensions\\identityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\extensions\\identityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\extensions\\httpclientextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\extensions\\httpclientextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\extensions\\addallservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\extensions\\addallservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\controllers\\studentcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\controllers\\studentcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\servicess\\implementation\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\servicess\\implementation\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\servicess\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\servicess\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|c:\\users\\azay\\desktop\\c#matrix\\usermanagementmvc\\usermanagementmvc\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E257285A-1588-4325-B730-4496B28F144D}|UserManagementMvc\\UserManagementMvc.csproj|solutionrelative:usermanagementmvc\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdentityExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Extensions\\IdentityExtension.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Extensions\\IdentityExtension.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Extensions\\IdentityExtension.cs",
+              "RelativeToolTip": "UserManagementMvc\\Extensions\\IdentityExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:11:28.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpClientExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Extensions\\HttpClientExtension.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Extensions\\HttpClientExtension.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Extensions\\HttpClientExtension.cs",
+              "RelativeToolTip": "UserManagementMvc\\Extensions\\HttpClientExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:10:45.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAllServices.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Extensions\\AddAllServices.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Extensions\\AddAllServices.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Extensions\\AddAllServices.cs",
+              "RelativeToolTip": "UserManagementMvc\\Extensions\\AddAllServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:10:42.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Servicess\\Implementation\\StudentService.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Servicess\\Implementation\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Servicess\\Implementation\\StudentService.cs",
+              "RelativeToolTip": "UserManagementMvc\\Servicess\\Implementation\\StudentService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:54:54.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentContoller.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Controllers\\StudentContoller.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Controllers\\StudentContoller.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Controllers\\StudentContoller.cs",
+              "RelativeToolTip": "UserManagementMvc\\Controllers\\StudentContoller.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:54:54.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Servicess\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Servicess\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Servicess\\Implementation\\UserService.cs",
+              "RelativeToolTip": "UserManagementMvc\\Servicess\\Implementation\\UserService.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswHQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:00:51.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Program.cs",
+              "RelativeToolTip": "UserManagementMvc\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:41:17.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "UserManagementMvc\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Azay\\Desktop\\C#Matrix\\UserManagementMvc\\UserManagementMvc\\Data\\SeedData.cs",
+              "RelativeToolTip": "UserManagementMvc\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:18:38.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

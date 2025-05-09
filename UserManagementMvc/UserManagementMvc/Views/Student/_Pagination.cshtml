@@ -1,0 +1,31 @@
+﻿@if (Model?.Data != null)
+{
+	var totalPages = (int)Math.Ceiling((double)Model.Data.TotalCount / Model.Data.PageSize);
+	int currentPage = Model.Data.PageNumber;
+
+	<nav>
+		<ul class="pagination justify-content-center">
+			@if (currentPage > 1)
+			{
+				<li class="page-item">
+					<a class="page-link" asp-action="GetAllStudents" asp-route-page="@(currentPage - 1)">Previous</a>
+				</li>
+			}
+
+			@for (int i = 1; i <= totalPages; i++)
+			{
+				<li class="page-item @(i == currentPage ? "active" : "")">
+					<a class="page-link" asp-action="GetAllStudents" asp-route-page="@i">@i</a>
+				</li>
+			}
+
+			@if (currentPage < totalPages)
+			{
+				<li class="page-item">
+					<a class="page-link" asp-action="GetAllStudents" asp-route-page="@(currentPage + 1)">Next</a>
+				</li>
+			}
+		</ul>
+
+	</nav>
+}

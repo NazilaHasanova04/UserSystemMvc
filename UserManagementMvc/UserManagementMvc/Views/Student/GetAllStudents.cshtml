@@ -1,0 +1,50 @@
+﻿@using UserManagementMvc.Enums
+@using UserManagementMvc.Models.CustomResponse
+@using UserManagementMvc.Models
+@using UserManagementMvc.Models.Student
+@model ApiResponse<PaginationResponseDto<StudentDto>>
+
+<table class="table table-sm">
+	<thead>
+		<tr>
+			<th scope="col">Id</th>
+			<th scope="col">Name</th>
+			<th scope="col">Email</th>
+			<th scope="col">Phone</th>
+			<th scope="col">Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model?.Data.Items != null && Model.Data.Items.Any())
+		{
+			@if(User.IsInRole(Roles.Admin.ToString()))
+			{
+				<a asp-controller="Student" asp-action="Create" type="button" class="btn btn-success">Add Student</a>
+			}
+
+			foreach (var student in Model.Data.Items)
+			{
+				<tr>
+					<td>@student.Id</td>
+					<td>@student.Name</td>
+					<td>@student.Email</td>
+					<td>@student.Phone</td>
+					<td>@student.Age</td>
+
+					@if(User.IsInRole(Roles.Admin.ToString())){
+					<td>
+						<a type="button" class="btn btn-info" asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id">Edit</a>
+					</td>
+					<td>
+						<a type="button" class="btn btn-danger" asp-controller="Student" asp-action="Delete" asp-route-id="@student.Id">Delete</a>
+					</td>
+					}
+					
+				</tr>
+			}
+		}
+
+	</tbody>
+</table>
+
+@await Html.PartialAsync("_Pagination",Model);

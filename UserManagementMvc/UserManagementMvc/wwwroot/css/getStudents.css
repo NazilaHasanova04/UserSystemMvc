@@ -1,0 +1,10 @@
+﻿body {
+    background-image: url('/images/solidbckground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+    background-color: aliceblue
+}

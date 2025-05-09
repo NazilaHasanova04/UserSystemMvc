@@ -1,0 +1,80 @@
+﻿@using UserManagementMvc.Models.Group
+@using UserManagementMvc.Models.Student
+@model CreateStudentDto
+
+<form asp-controller="Student" asp-action="Create" method="post" enctype="multipart/form-data" style="padding:50px">
+	@Html.AntiForgeryToken()
+
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+	<div class="form-group">
+		<label asp-for="Name">Name</label>
+		<input type="text" asp-for="Name" class="form-control input" aria-describedby="nameHelp" placeholder="Enter name">
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+	<br />
+	<div class="form-group">
+		<label asp-for="Email">Email address</label>
+		<input type="email" asp-for="Email" class="form-control input" aria-describedby="emailHelp" placeholder="Enter email">
+		<span asp-validation-for="Email" class="text-danger"></span>
+	</div>
+	<br />
+	<div class="form-group">
+		<label asp-for="Phone">Phone</label>
+		<input type="tel" asp-for="Phone" class="form-control input" aria-describedby="phoneHelp" placeholder="Enter phone">
+		<span asp-validation-for="Phone" class="text-danger"></span>
+	</div>
+	<br />
+	<div class="form-group">
+		<label asp-for="Age">Age</label>
+		<input type="number" asp-for="Age" class="form-control input" aria-describedby="ageHelp" placeholder="Enter age">
+		<span asp-validation-for="Age" class="text-danger"></span>
+	</div>
+	<br />
+	<label class="form-label select-label">Select Groups</label>
+
+	<br />
+
+	<select asp-for="GroupIds" id="groupSelect" data-mdb-select-init multiple></select>
+	<span asp-validation-for="GroupIds" class="text-danger"></span>
+
+	<br />
+
+	<div class="form-group">
+		<label asp-for="Image">Image</label>
+		<input type="file" asp-for="Image" class="form-control input" aria-describedby="fileHelp" placeholder="Enter file">
+		<span asp-validation-for="Image" class="text-danger"></span>
+	</div>
+	<br />
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script>
+	 window.onload = function () {
+        loadGroups();
+    };
+
+	function loadGroups(event){
+		var httpRequest = new XMLHttpRequest();
+		httpRequest.open("GET","https://localhost:7167/api/Group/GetAll?PageNumber=1&PageSize=11",true);
+		httpRequest.onreadystatechange = function(){
+			if(httpRequest.readyState === 4 && httpRequest.status === 200){
+				const response = JSON.parse(httpRequest.responseText);
+
+				var groupSelect = document.getElementById("groupSelect");
+
+				groupSelect.innerHTML = "";
+
+				response.data.items.forEach(function (group) {
+                    var option = document.createElement("option");
+                    option.value = group.id; 
+                    option.textContent = group.name; 
+                    groupSelect.appendChild(option);
+                });
+			}
+		};
+
+		httpRequest.send();
+	}
+</script>
+
